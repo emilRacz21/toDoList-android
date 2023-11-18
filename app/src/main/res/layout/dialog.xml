@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350sp"
+    android:orientation="vertical"
+    android:layout_height="700sp">
+
+    <TextView
+        android:layout_marginBottom="22sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27sp"
+        android:textSize="22sp"
+        android:text="Get your Task"/>
+
+    <EditText
+        android:id="@+id/getTitle"
+        android:inputType="textCapWords"
+        android:layout_marginTop="12sp"
+        android:layout_gravity="center"
+        android:background="@drawable/edittext"
+        android:layout_width="220sp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:hint="Set your title "
+        android:minHeight="48dp" />
+
+    <CalendarView
+        android:background="@drawable/calendar"
+        android:layout_marginTop="12sp"
+        android:layout_gravity="center"
+        android:id="@+id/calendarView"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/getDescription"
+        android:textAlignment="center"
+        android:background="@drawable/edittext"
+        android:layout_marginTop="12sp"
+        android:layout_gravity="center"
+        android:layout_width="220sp"
+        android:layout_height="90sp"
+        android:hint="Description"
+        android:inputType="textCapWords"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:layout_marginTop="32sp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/acceptBtn"
+            android:backgroundTint="@color/floatingBtn"
+            android:layout_marginEnd="22sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"/>
+        <Button
+            android:id="@+id/cancelBtn"
+            android:backgroundTint="@color/floatingBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
