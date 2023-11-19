@@ -18,18 +18,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="4"
             android:layout_marginStart="22sp"
-            android:text="List"
+            android:text="To Do Tasks"
             android:textSize="22sp" />
 
         <TextView
             android:id="@+id/addList"
-            android:textSize="14sp"
+            android:textSize="22sp"
             android:textColor="@color/addToList"
             android:layout_marginEnd="22sp"
             android:textAlignment="textEnd"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="add to list"/>
+            android:text="Add to list"/>
 
     </LinearLayout>
     <View
@@ -63,7 +63,12 @@
 
     </LinearLayout>
 
-        <ListView
+        <GridView
+            android:layout_marginStart="12sp"
+            android:layout_marginTop="22sp"
+            android:horizontalSpacing="3dp"
+            android:verticalSpacing="18dp"
+            android:numColumns="2"
             android:layout_below="@id/liner1"
             android:id="@+id/todoList"
             android:layout_width="match_parent"

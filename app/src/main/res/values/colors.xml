@@ -4,5 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="floatingBtn">#AAB9C5</color>
     <color name="addToList">#A2920B</color>
+    <color name="strokeColor">#000000</color>
     <color name="callendar">#D8D8D8</color>
+    <color name="grid">#BADCDBDB</color>
 </resources>

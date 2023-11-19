@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="350sp"
     android:orientation="vertical"
-    android:layout_height="700sp">
+    android:layout_height="750sp">
 
     <TextView
         android:layout_marginBottom="22sp"
@@ -45,8 +45,15 @@
         android:inputType="textCapWords"
         android:minHeight="48dp" />
 
+    <Spinner
+        android:id="@+id/colorSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22sp"
+        android:minHeight="48dp" />
     <LinearLayout
-        android:layout_marginTop="32sp"
+        android:layout_marginTop="22sp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
